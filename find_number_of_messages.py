@@ -17,6 +17,6 @@ def find_number_of_messages(data: dict)->int:
             sum+=1
     return sum
 
-path='data/result.json'
+p='data/result.json'
 
-print(find_number_of_messages(read_data(path)))
+print(find_number_of_messages(read_data(p)))
